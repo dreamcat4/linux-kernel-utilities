@@ -121,6 +121,13 @@ sudo mount --bind /sys /mnt/sys
 >       - They must be removed in a non-dependency order, so just take your time.
 >       - `dpkg --list | grep "ii[[:space:]][[:space:]]linux-[f,h,i,l]"`   
            will help list your installs
->   - Buy me a beer through [PayPal](https://www.paypal.me/metsdev) or Bitcoin: `14J346V95TXh8UAK762C2VFE81VKStJCRC`  
 
-<img height="150" width="150" align="left" src="img/bits.png" alt="Bitcoin" title="Bitcoin">
+## Grats
+> - [PayPal](https://www.paypal.me/metsdev)
+> - BTC: `13zDzthf53SDgAwAdtBLrkChUz6SAqhM1h`
+> - DSH: `Xix7JSbqUmPJZCqSp1a3VtcWtEJyij5VXi`
+> - ETH: `0x6B9fB2df2a0000074D7897C149ACdBA9BF55C87F`
+> - LTC: `LhKz6CDyLK3Q12g44xYV9Xzbq2cRWxVJPg`
+> - ZEC: `t1PHdAHnc3nBf2VmdegpsLzk2KYCLBF2zQc`
+> - ZEN: `znkqpybBKyUDSzJYvSxLJCP9GKscRQpQjFA`
+> - XMR: `49hM4Pg2wUx7tjqYBFTHYrRYHWi8BNSAAPVjW6rZ3NCHJUd5AnX2EKTEE1ASHhLEZ2UYdfMqtFo2iGV5Q6oZANrHBxxBEhS`
