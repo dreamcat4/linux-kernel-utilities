@@ -124,10 +124,10 @@ sudo mount --bind /sys /mnt/sys
 
 ## Grats
 > - [PayPal](https://www.paypal.me/metsdev)
-> - BTC: `13zDzthf53SDgAwAdtBLrkChUz6SAqhM1h`
-> - DSH: `Xix7JSbqUmPJZCqSp1a3VtcWtEJyij5VXi`
-> - ETH: `0x6B9fB2df2a0000074D7897C149ACdBA9BF55C87F`
-> - LTC: `LhKz6CDyLK3Q12g44xYV9Xzbq2cRWxVJPg`
-> - ZEC: `t1PHdAHnc3nBf2VmdegpsLzk2KYCLBF2zQc`
-> - ZEN: `znkqpybBKyUDSzJYvSxLJCP9GKscRQpQjFA`
+> - BTC: `1BHyjfq4MTn2dcjiAauwgJiJKJCMZrkpA5`
+> - DSH: `Xn2wMkrynhx2rT5jyGMAQnQUY2pozRSUsD`
+> - ETH: `0x170971bF1ac7b41874d5883f3b72ce1FC46214bc`
+> - LTC: `LfAw4TWxzSDGWzzL58hhHKG9MLNUtMhPu2`
+> - ZEC: `t1SLDxqpU7oN73v7TkmMhjV7LitXmvf7ADr`
+> - ZEN: `znXihaFzmUYXVjYHt6uJkwpWbvxd3J3tToT`
 > - XMR: `49hM4Pg2wUx7tjqYBFTHYrRYHWi8BNSAAPVjW6rZ3NCHJUd5AnX2EKTEE1ASHhLEZ2UYdfMqtFo2iGV5Q6oZANrHBxxBEhS`
