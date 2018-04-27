@@ -296,6 +296,7 @@ function get_precompiled_ubu_kernel(){
 						get_ubu_shared_header
 						get_ubu_files ${KTYPE} header
 						get_ubu_files ${KTYPE} image
+						get_ubu_files ${KTYPE} modules
 					fi
 				fi
 			done

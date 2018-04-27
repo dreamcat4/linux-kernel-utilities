@@ -54,7 +54,7 @@ if [ $AV -eq 1 ]; then
 	fi
 fi
 
-dpkg -l linux-* | awk '/^ii/{ print $2}' | grep -v -e "$(uname -r | cut -f1,2 -d"-")" | grep -e "[0-9]" | grep -E "(image|headers)" | xargs $SUDO apt-get -y purge
+dpkg -l linux-* | awk '/^ii/{ print $2}' | grep -v -e "$(uname -r | cut -f1,2 -d"-")" | grep -e "[0-9]" | grep -E "(image|headers|modules)" | xargs $SUDO apt-get -y purge
 
 # Used to temporarily disable Sophos AntiVirus
 if [ -s $HOME/.aliases/sophos ]; then
