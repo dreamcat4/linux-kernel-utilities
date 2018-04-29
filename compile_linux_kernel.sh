@@ -21,7 +21,7 @@ OPTIND=1
 
 # Set overlap variables
 DEPENDENCIES+="bc build-essential gnupg libnotify-bin libssl-dev pkg-config \
-				time "
+				time bison flex "
 
 # shellcheck disable=SC2034
 BASEURL=kernel.org
@@ -145,7 +145,7 @@ if [[ ! $REPLY  =~ ^[Yy]$ ]]; then
 	MSG="sudo dpkg -i $pDir/*.deb"
 	center-text "${Yellow}" "${MSG}" "${Reg}"
 	echo -e "\nYou will still have to handle the installation of modules from the source directory with:"
-	MSG="sudo modules_install"
+	MSG="sudo make modules_install"
 	center-text "${Yellow}" "${MSG}" "${Reg}"
 	echo -e "\n${Yellow}[!]${Reg} Skipping kernel and modules installation . . ."
 else
