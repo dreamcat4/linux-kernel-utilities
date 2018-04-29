@@ -21,7 +21,7 @@ OPTIND=1
 
 # Set overlap variables
 DEPENDENCIES+="bc build-essential gnupg libnotify-bin libssl-dev pkg-config \
-				time "
+				time bison flex "
 
 # shellcheck disable=SC2034
 BASEURL=kernel.org
