@@ -346,10 +346,9 @@ function spinner(){
 	# shellcheck disable=SC2143
 	while [ "$(ps a | awk '{print $1}' | grep "$pid")" ]; do
 		for (( i=0; i<${#SPINNER}; i++ )); do
-      sleep 0.05
-      printf "${CL}${SPINNER:$i:1} ${infotext} ${msg}\r"
-    done
-
+			sleep 0.05
+			printf "${CL}${SPINNER:$i:1} ${infotext} ${msg}\r"
+		done
 	done
 	printf " \b\b\b\b"
 	tput cnorm;
