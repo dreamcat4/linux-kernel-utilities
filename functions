@@ -111,7 +111,7 @@ function cleanup(){
 }
 
 function get_ubuntu_list(){
-	local FILES=($(curl -s "${BASEURL}" | grep "v${MINVER}" | cut -d '>' -f 7 | awk '{print substr($0,1, length($0)-4)}'))
+	local FILES=($(curl -sL "${BASEURL}" | grep "v${MINVER}" | cut -d '>' -f 7 | awk '{print substr($0,1, length($0)-4)}'))
 	local FILTERED_FILES=(${FILES[@]/*$RC_FILTER*/})
 
 	NUMEL=${#FILTERED_FILES[@]}
@@ -145,7 +145,7 @@ function print_kernels_ubu(){
 }
 
 function get_debian_list(){
-	local FILES=($(curl -s https://www.kernel.org | grep "Download complete tarball" | cut -d '.' -f 2- | cut -d '"' -f 1 ))
+	local FILES=($(curl -sL https://www.kernel.org | grep "Download complete tarball" | cut -d '.' -f 2- | cut -d '"' -f 1 ))
 	local FILTERED_FILES=(${FILES[@]/*$RC_FILTER*/})
 
 	for ver in "${FILTERED_FILES[@]}"; do
