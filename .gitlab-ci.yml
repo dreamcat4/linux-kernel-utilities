@@ -14,7 +14,7 @@ variables:
   URL: "https://git.marktompkins.me/mtompkins/linux-kernel-utilities"
   A_INST: "hooks/fpm-after-install.sh"
   B_REMOVE: "hooks/fpm-before-uninstall.sh"
-  MAINT: "mets_dev@outlook.com"
+  MAINT: "nobody@outlook.com"
   ARCH: "all"
 
 ubu-notag:ubuntu:
