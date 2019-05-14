@@ -111,7 +111,7 @@ function cleanup(){
 }
 
 function get_ubuntu_list(){
-	local FILES=($(curl -sL "${BASEURL}" | grep "v${MINVER}" | cut -d '>' -f 7 | awk '{print substr($0,1, length($0)-4)}'))
+	local FILES=($(curl -sL "${BASEURL}" | grep "v[${MINVER}-${MAXVER}]" | cut -d '>' -f 7 | awk '{print substr($0,1, length($0)-4)}'))
 	local FILTERED_FILES=(${FILES[@]/*$RC_FILTER*/})
 
 	NUMEL=${#FILTERED_FILES[@]}
